@@ -1,1 +1,1 @@
-# Test task for embedded camp in GlobalLogic
+# Test task for C/Embedded BaseCamp course
