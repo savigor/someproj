@@ -1,7 +1,7 @@
 #include <stdio.h>              	 //connect modules 
 #include <stdlib.h>             	 //for  atoi
 
-int main(int argc, char *argv[2])         // main function
+int main(int argc, char *argv[ ])         // main function
 {
 
     int result;
