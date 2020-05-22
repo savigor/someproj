@@ -1,0 +1,15 @@
+#!/bin/bash
+
+N=$1 #read first argument
+
+K=$2 #read second argument 
+
+if (( (N%(K+1)) > 0 )) # is able a shot step
+
+then let "result=(N/(K+1)) + 1" #while shot step is able
+
+else let "result=(N/(K+1))" # giant hasn't shot step
+
+fi 
+
+echo $result 
